@@ -17,5 +17,5 @@ spec:
   volumes:
     - name: redisdata
       nfs:
-        server: nfs.ikubernetes.io
+        server: nfs.ilinux.io
         path: /data/redis
