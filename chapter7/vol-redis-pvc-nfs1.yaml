@@ -15,4 +15,4 @@ spec:
   volumes:
     - name: redis-nfs-vol
       persistentVolumeClaim:
-        claimName: pv-nfs-0001
+        claimName: pvc-nfs-0001
