@@ -17,4 +17,4 @@ spec:
     - nfsvers=4.1
   nfs:
     path:  "/webdata/htdocs"
-    server: nfs.ikubernetes.io
+    server: nfs.ilinux.io
