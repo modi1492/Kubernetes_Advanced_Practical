@@ -16,5 +16,5 @@ spec:
     - hard
     - nfsvers=4.1
   nfs:
-    path:  "/webdata/htdocs"
+    path:  "/data/pvc_nfs"
     server: nfs.ilinux.io
