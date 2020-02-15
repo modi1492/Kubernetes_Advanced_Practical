@@ -14,7 +14,6 @@ spec:
   storageClassName: slow
   mountOptions:
     - hard
-    - nfsvers=4.1
   nfs:
     path:  "/data/pvc_nfs"
     server: nfs.ilinux.io
