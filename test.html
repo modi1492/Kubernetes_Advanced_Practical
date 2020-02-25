@@ -1,0 +1,12 @@
+curl -k -H “Content-Type: application/json” -X PUT --data-binary @prom.json http://127.0.0.1:8081/api/v1/namespaces/prom/finalize
+
+systemctl stop privoxy
+
+systemctl start privoxy
+systemctl enable privoxy
+systemctl status privoxy
+
+
+curl 172.16.1.3:8080/api/v1/namespaces
+
+curl localhost:8080/api/v1/namespaces

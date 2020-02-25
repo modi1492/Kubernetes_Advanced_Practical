@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: pv-nfs-0001
+  name: redis-redis
   labels:
-    release: stable
+    app: redis-redis
 spec:
   capacity:
     storage: 5Gi
